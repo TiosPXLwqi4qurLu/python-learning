@@ -1,0 +1,33 @@
+
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/inheritance&override.py b/inheritance&override.py
+new file mode 100644
+index 0000000..ab438c8
+--- /dev/null
++++ b/inheritance&override.py
+@@ -0,0 +1,20 @@
++# inheritance 遗传
++# override 重载
++
++class Father():
++	name = "Kyo"
++	def eat(self):
++		print("I can eat")
++
++class Mother():
++	def walk(walk):
++		print("I can walk")
++
++class Son(Father,Mother):
++	def eat(self):
++		print("I eat like son")
++
++littleKyo = Son()
++littleKyo.eat()
++littleKyo.walk()
++git remote add origin git@github.com:TiosPXLwqi4qurLu/python-learning.git
+\ No newline at end of file
